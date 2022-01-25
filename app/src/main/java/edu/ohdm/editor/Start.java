@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import edu.ohdm.editor.control.db.Datenbank;
+import edu.ohdm.editor.control.db.StartDB;
 import edu.ohdm.editor.view.Config;
 import edu.ohdm.editor.view.Karte;
 
@@ -35,6 +36,7 @@ public class Start extends AppCompatActivity {
         } else {
             config.setVisibility(View.VISIBLE);
         }
+        (new StartDB()).start();
     }
 
     public void config(View v) {

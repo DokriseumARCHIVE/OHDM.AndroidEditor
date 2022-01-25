@@ -5,5 +5,5 @@ public interface DBCred {
     final static String database = "ohdm";
     final static int port = 5432;
     final static String user = "ohdm";
-    final static String pass = "ois_ohdm_wise2021";
+    final static String password = "ois_ohdm_wise2021";
 }

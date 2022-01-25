@@ -19,7 +19,7 @@ public class Database {
     private final String database = DBCred.database;
     private final int port = DBCred.port;
     private final String user = DBCred.user;
-    private final String pass = DBCred.pass;
+    private final String pass = DBCred.password;
     private String url = "jdbc:postgresql://%s:%d/%s";
     private boolean status;
 
@@ -79,4 +79,63 @@ public class Database {
 
         return c;
     }
+
+
+    public static final String[] LAYERS= {
+                    "ohdm_t%3Aboundaries_admin_2",
+                    "ohdm_t%3Aboundaries_admin_3",
+                    "ohdm_t%3Aboundaries_admin_4",
+                    "ohdm_t%3Aboundaries_admin_5",
+                    "ohdm_t%3Aboundaries_admin_6",
+                    "ohdm_t%3Aboundaries_admin_7",
+                    "ohdm_t%3Aboundaries_admin_8",
+                    "ohdm_t%3Aboundaries_admin_9",
+                    "ohdm_t%3Aboundaries_admin_10",
+                    "ohdm_t%3Ahighway_huge_lines",
+                    "ohdm_t%3Ahighway_primary_lines",
+                    "ohdm_t%3Ahighway_secondary_lines",
+                    "ohdm_t%3Ahighway_small_lines",
+                    "ohdm_t%3Ahighway_tertiary_lines",
+                    "ohdm_t%3Ahighway_path_lines",
+                    "ohdm_t%3Arailway_lines",
+                    "ohdm_t%3Ashop_points",
+                    "ohdm_t%3Apublic_transport_points",
+                    "ohdm_t%3Anatural_points",
+                    "ohdm_t%3Aaeroway_points",
+                    "ohdm_t%3Acraft_points",
+                    "ohdm_t%3Abuilding_polygons",
+                    "ohdm_t%3Anatural_polygons",
+                    "ohdm_t%3Amilitary_polygons",
+                    "ohdm_t%3Awaterway_polygons",
+                    "ohdm_t%3Ageological_polygons",
+                    "ohdm_t%3Aaeroway_polygons",
+                    "ohdm_t%3Aemergency_polygons",
+                    "ohdm_t%3Alanduse_brown",
+                    "ohdm_t%3Alanduse_commercialetc",
+                    "ohdm_t%3Alanduse_freegreenandwood",
+                    "ohdm_t%3Alanduse_gardeningandfarm",
+                    "ohdm_t%3Alanduse_grey",
+                    "ohdm_t%3Alanduse_industrial",
+                    "ohdm_t%3Alanduse_military",
+                    "ohdm_t%3Alanduse_residentaletc",
+                    "ohdm_t%3Alanduse_transport",
+                    "ohdm_t%3Alanduse_water",
+                    "ohdm_t%3Abuilding_polygons_label",
+                    "ohdm_t%3Anatural_polygons_label",
+                    "ohdm_t%3Amilitary_polygons_label",
+                    "ohdm_t%3Awaterway_polygons_label",
+                    "ohdm_t%3Ageological_polygons_label",
+                    "ohdm_t%3Aaeroway_polygons_label",
+                    "ohdm_t%3Aemergency_polygons_label",
+                    "ohdm_t%3Alanduse_brown_label",
+                    "ohdm_t%3Alanduse_commercialetc_label",
+                    "ohdm_t%3Alanduse_freegreenandwood_label_label",
+                    "ohdm_t%3Alanduse_gardeningandfarm_label",
+                    "ohdm_t%3Alanduse_grey_label",
+                    "ohdm_t%3Alanduse_industrial_label",
+                    "ohdm_t%3Alanduse_military_label",
+                    "ohdm_t%3Alanduse_residentaletc_label",
+                    "ohdm_t%3Alanduse_transport_label",
+                    "ohdm_t%3Alanduse_water_label"
+            };
 }
