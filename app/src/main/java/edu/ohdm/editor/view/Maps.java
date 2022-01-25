@@ -46,19 +46,19 @@ public class Maps extends View {
                 attrs, R.styleable.Maps, defStyle, 0);
 
         mExampleString = a.getString(
-                R.styleable.Maps_exampleString);
+                R.styleable.Maps_exampleStringMaps);
         mExampleColor = a.getColor(
-                R.styleable.Maps_exampleColor,
+                R.styleable.Maps_exampleColorMaps,
                 mExampleColor);
         // Use getDimensionPixelSize or getDimensionPixelOffset when dealing with
         // values that should fall on pixel boundaries.
         mExampleDimension = a.getDimension(
-                R.styleable.Maps_exampleDimension,
+                R.styleable.Maps_exampleDimensionMaps,
                 mExampleDimension);
 
-        if (a.hasValue(R.styleable.Maps_exampleDrawable)) {
+        if (a.hasValue(R.styleable.Maps_exampleDrawableMaps)) {
             mExampleDrawable = a.getDrawable(
-                    R.styleable.Maps_exampleDrawable);
+                    R.styleable.Maps_exampleDrawableMaps);
             mExampleDrawable.setCallback(this);
         }
 

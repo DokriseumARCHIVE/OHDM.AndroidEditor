@@ -46,19 +46,19 @@ public class Row extends View {
                 attrs, R.styleable.Row, defStyle, 0);
 
         mExampleString = a.getString(
-                R.styleable.Row_exampleString);
+                R.styleable.Row_exampleStringRow);
         mExampleColor = a.getColor(
-                R.styleable.Row_exampleColor,
+                R.styleable.Row_exampleColorRow,
                 mExampleColor);
         // Use getDimensionPixelSize or getDimensionPixelOffset when dealing with
         // values that should fall on pixel boundaries.
         mExampleDimension = a.getDimension(
-                R.styleable.Row_exampleDimension,
+                R.styleable.Row_exampleDimensionRow,
                 mExampleDimension);
 
-        if (a.hasValue(R.styleable.Row_exampleDrawable)) {
+        if (a.hasValue(R.styleable.Row_exampleDrawableRow)) {
             mExampleDrawable = a.getDrawable(
-                    R.styleable.Row_exampleDrawable);
+                    R.styleable.Row_exampleDrawableRow);
             mExampleDrawable.setCallback(this);
         }
 

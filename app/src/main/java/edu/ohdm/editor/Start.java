@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import edu.ohdm.editor.control.db.Datenbank;
-import edu.ohdm.editor.view.ConfigView;
+import edu.ohdm.editor.view.Config;
 import edu.ohdm.editor.view.Karte;
 
 public class Start extends AppCompatActivity {
@@ -38,7 +38,7 @@ public class Start extends AppCompatActivity {
     }
 
     public void config(View v) {
-        Intent i = new Intent(this, ConfigView.class);
+        Intent i = new Intent(this, Config.class);
         startActivity(i);
     }
 

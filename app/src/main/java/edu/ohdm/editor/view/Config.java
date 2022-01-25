@@ -15,7 +15,7 @@ import edu.ohdm.editor.R;
 /**
  * TODO: document your custom view class.
  */
-public class ConfigView extends View {
+public class Config extends View {
     private String mExampleString; // TODO: use a default from R.string...
     private int mExampleColor = Color.RED; // TODO: use a default from R.color...
     private float mExampleDimension = 0; // TODO: use a default from R.dimen...
@@ -25,17 +25,17 @@ public class ConfigView extends View {
     private float mTextWidth;
     private float mTextHeight;
 
-    public ConfigView(Context context) {
+    public Config(Context context) {
         super(context);
         init(null, 0);
     }
 
-    public ConfigView(Context context, AttributeSet attrs) {
+    public Config(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(attrs, 0);
     }
 
-    public ConfigView(Context context, AttributeSet attrs, int defStyle) {
+    public Config(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init(attrs, defStyle);
     }
@@ -46,19 +46,19 @@ public class ConfigView extends View {
                 attrs, R.styleable.Config, defStyle, 0);
 
         mExampleString = a.getString(
-                R.styleable.Config_exampleString);
+                R.styleable.Config_exampleStringConfig);
         mExampleColor = a.getColor(
-                R.styleable.Config_exampleColor,
+                R.styleable.Config_exampleColorConfig,
                 mExampleColor);
         // Use getDimensionPixelSize or getDimensionPixelOffset when dealing with
         // values that should fall on pixel boundaries.
         mExampleDimension = a.getDimension(
-                R.styleable.Config_exampleDimension,
+                R.styleable.Config_exampleDimensionConfig,
                 mExampleDimension);
 
-        if (a.hasValue(R.styleable.Config_exampleDrawable)) {
+        if (a.hasValue(R.styleable.Config_exampleDrawableConfig)) {
             mExampleDrawable = a.getDrawable(
-                    R.styleable.Config_exampleDrawable);
+                    R.styleable.Config_exampleDrawableConfig);
             mExampleDrawable.setCallback(this);
         }
 

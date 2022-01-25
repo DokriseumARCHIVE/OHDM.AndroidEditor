@@ -1,9 +1,9 @@
 package edu.ohdm.editor.control.db;
 
 public interface DBCred {
-    final String host = "35.44.16.169";
-    final String database = "postgres";
-    final int port = 5432;
-    final String user = "postgres";
-    final String pass = "123456";
+    final static String host = "85.214.50.73";
+    final static String database = "ohdm";
+    final static int port = 5432;
+    final static String user = "ohdm";
+    final static String pass = "ois_ohdm_wise2021";
 }
