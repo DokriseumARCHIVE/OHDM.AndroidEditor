@@ -6,6 +6,7 @@ import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import edu.ohdm.editor.R;
+import edu.ohdm.editor.control.db.Datenbank;
 import edu.ohdm.editor.model.Eintrag;
 
 public class Konfiguration extends AppCompatActivity {

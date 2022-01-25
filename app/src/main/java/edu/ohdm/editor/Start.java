@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import edu.ohdm.editor.control.Datenbank;
+import edu.ohdm.editor.control.db.Datenbank;
 import edu.ohdm.editor.view.ConfigView;
 import edu.ohdm.editor.view.Karte;
 
