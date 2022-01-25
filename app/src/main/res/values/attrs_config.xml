@@ -1,8 +1,8 @@
 <resources>
     <declare-styleable name="Config">
-        <attr name="exampleString" format="string" />
-        <attr name="exampleDimension" format="dimension" />
-        <attr name="exampleColor" format="color" />
-        <attr name="exampleDrawable" format="color|reference" />
+        <attr name="exampleStringConfig" format="string" />
+        <attr name="exampleDimensionConfig" format="dimension" />
+        <attr name="exampleColorConfig" format="color" />
+        <attr name="exampleDrawableConfig" format="color|reference" />
     </declare-styleable>
 </resources>

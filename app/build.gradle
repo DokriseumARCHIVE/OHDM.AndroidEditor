@@ -55,7 +55,8 @@ dependencies {
     // https://mvnrepository.com/artifact/org.osmdroid/OSMMapTilePackager
     //implementation 'org.osmdroid:OSMMapTilePackager:6.1.11'
     // https://mvnrepository.com/artifact/org.osmdroid/osmdroid-server-jdk
-    implementation 'org.osmdroid:osmdroid-server-jdk:6.1.11'
+    //implementation 'org.osmdroid:osmdroid-server-jdk:6.1.11'
     // https://mvnrepository.com/artifact/org.osmdroid/osmdroid-simple-map
     //implementation 'org.osmdroid:osmdroid-simple-map:6.1.11'
+    implementation 'org.postgresql:postgresql:42.2.5'
 }
